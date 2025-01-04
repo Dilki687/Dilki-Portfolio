@@ -1,7 +1,7 @@
 "use client";
 import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
-import bookImage from "@/assets/images/book-cover.png";
+import sliitLogo from "@/assets/images/sliitLogo.png";
 import Image from "next/image";
 import JavascriptIcon from "@/assets/icons/square-js.svg";
 import HTMLIcon from "@/assets/icons/html5.svg";
@@ -13,7 +13,7 @@ import mapImage from "@/assets/images/map1.jpg";
 import smileMemoji from "@/assets/images/memoji-smile.png";
 import { CardHeader } from "@/components/CardHeader";
 import { ToolboxItems } from "@/components/ToolboxItems";
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 import { use, useRef } from "react";
 
 const toolboxItems = [
@@ -96,18 +96,17 @@ export const AboutSection = () => {
           <div className="grid grid-cols-1 gap-8 md:grid-cols-5 lg:grid-cols-3">
             <Card className="h-[320px] md:col-span-2 lg:col-span-1">
               <CardHeader
-                title="My Reads"
-                description="Explore the books shaping my perspectives."
+                title="Education"
+                description="SLIIT-BSc(Hons) in Information Technology Specializing in Software Engineering."
               />
               <div className="w-40 mx-auto mt-2 md:mt-0">
-                <Image src={bookImage} alt="Book cover" />
+                <Image src={sliitLogo} alt="Book cover" />
               </div>
             </Card>
             <Card className="h-[320px] md:col-span-3 lg:col-span-2">
               <CardHeader
                 title="My Toolbox"
-                description="Dive into the tools and technologies that power the creation of
-                my exceptional digital experiences."
+                description="Dive into the tools and technologies powering exceptional digital experiences."
                 className=""
               />
               <ToolboxItems
@@ -125,8 +124,8 @@ export const AboutSection = () => {
           <div className="grid grid-cols-1 md:grid-cols-5 lg:grid-cols-3 gap-8">
             <Card className="h-[320px] p-0 flex flex-col md:col-span-3 lg:col-span-2">
               <CardHeader
-                title="Beyond the Code"
-                description="Explore my interests and hobbies beyond the digital realm."
+                title="Tech Skillset Map"
+                description="Discover the core skills that shape my technical expertise."
                 className="px-6 py-6"
               />
               <div className="relative flex-1" ref={constraintRef}>
