@@ -121,7 +121,7 @@ export const HeroSection = () => {
             Chamodi Dilki
           </h1>
           <h1 className="text-2xl md:text-4xl text-center mt-3 tracking-wide">
-            &quot;Software Developer&quot;
+            &quot;Software Engineer&quot;
           </h1>
           <p className="mt-4 text-center text-white/60 md:text-lg">
             I specialize in turning creative designs into functional,
@@ -130,7 +130,7 @@ export const HeroSection = () => {
           </p>
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4 relative z-10">
-          <a href="/sample-resume.pdf" download>
+          <a href="/Chamodi-Dilki-CV.pdf" download>
             <button className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl">
               <span className="font-semibold">Download CV</span>
               <ArrowDown className="size-4" />
