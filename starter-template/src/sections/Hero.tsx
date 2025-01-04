@@ -118,7 +118,10 @@ export const HeroSection = () => {
         </div>
         <div className="max-w-lg mx-auto">
           <h1 className="font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide">
-            Building Exceptional User Experiences
+            Chamodi Dilki 
+          </h1>
+          <h1 className="text-2xl md:text-4xl text-center mt-3 tracking-wide">
+            "Software Developer"
           </h1>
           <p className="mt-4 text-center text-white/60 md:text-lg">
             I specialize in turning creative designs into functional,
@@ -126,15 +129,17 @@ export const HeroSection = () => {
             next project!
           </p>
         </div>
-        <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
+        <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4 relative z-10">
           <button className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl">
             <span className="font-semibold">Explore My Work</span>
             <ArrowDown className="size-4" />
           </button>
-          <button className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl">
-            <span>👋</span>
-            <span className="font-semibold">Let's Connect</span>
-          </button>
+          <a href="mailto:chamodidilki44@gmail.com" className="inline-block">
+            <button className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl">
+              <span>👋</span>
+              <span className="font-semibold">Let's Connect</span>
+            </button>
+          </a>
         </div>
       </div>
     </div>

@@ -1,49 +1,61 @@
-import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
-import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
-import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
+import shiongreen from "@/assets/images/shiongreen.png";
+import shionideals from "@/assets/images/shionideals.png";
+import campzip from "@/assets/images/campzip.png";
+import habitTracker from "@/assets/images/habitTracker.png";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
-import grainImage from "@/assets/images/grain.jpg";
 import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
 
 const portfolioProjects = [
   {
-    company: "Acme Corp",
-    year: "2022",
-    title: "Dark Saas Landing Page",
+    company: "Shion Green",
+    year: "2024",
+    title: "Online Spices Selling Website",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Responsive to all devices." },
+      { title: "Dual-language support." },
+      { title: "Streamlined order placement." },
     ],
-    link: "https://youtu.be/4k7IdSLxh6w",
-    image: darkSaasLandingPage,
+    link: "https://www.shiongreenceylon.com",
+    image: shiongreen,
   },
   {
-    company: "Innovative Co",
-    year: "2021",
-    title: "Light Saas Landing Page",
+    company: "Shion Ideals",
+    year: "2024",
+    title: "Vehicles, Machinery, and Spare Parts Store",
     results: [
-      { title: "Boosted sales by 20%" },
-      { title: "Expanded customer reach by 35%" },
-      { title: "Increased brand awareness by 15%" },
+      { title: "Responsive across all devices." },
+      { title: "Seamless English-Japanese support." },
+      { title: "Fast and user-friendly design." },
     ],
-    link: "https://youtu.be/7hi5zwO75yc",
-    image: lightSaasLandingPage,
+    link: "https://www.shionideals.com/",
+    image: shionideals,
   },
   {
-    company: "Quantum Dynamics",
-    year: "2023",
-    title: "AI Startup Landing Page",
+    company: "Habit Tracker",
+    year: "2024",
+    title: "Habit tracking Mobile App",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Complete Habit Management (CRUD)." },
+      { title: "Offline Storage Support." },
+      { title: "Personalized Habit Tracking." },
     ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
-    image: aiStartupLandingPage,
+    link: "https://github.com/Dilki687/HabitTracker.git",
+    image: habitTracker,
+  },
+  {
+    company: "CampZip",
+    year: "2024",
+    title: "Online Camp Location Booking System",
+    results: [
+      { title: "Robust Booking Features." },
+      { title: "Stripe Payment Integration." },
+      { title: "Scalable Data Management." },
+    ],
+    link: "https://github.com/Dilki687/camp-site-Booking.git",
+    image: campzip,
   },
 ];
 
@@ -85,7 +97,7 @@ export const ProjectsSection = () => {
                       </li>
                     ))}
                   </ul>
-                  <a href="{project.link}">
+                  <a href={project.link}>
                     <button className="bg-white text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2 mt-8">
                       <span>Visit Live Site</span>
                       <ArrowUpRightIcon className="size-4" />
