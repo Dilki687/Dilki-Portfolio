@@ -11,7 +11,7 @@ const footerLinks = [
   },
   {
     title: "Email",
-    href: "https://chamodidilki44@gmail.com",
+    href: "mailto:chamodidilki44@gmail.com",
   },
 ];
 
