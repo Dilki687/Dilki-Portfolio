@@ -10,7 +10,7 @@ import { Footer } from "@/sections/Footer";
 export default function Home() {
   return (
     <div id="home">
-      <link rel="icon" href="/favicon.png" />
+      <link rel="icon" href="/logo1.png" />
       <Header />
       <HeroSection />
       <ProjectsSection />
