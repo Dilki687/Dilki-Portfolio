@@ -2,6 +2,7 @@ import shiongreen from "@/assets/images/shiongreen.png";
 import shionideals from "@/assets/images/shionideals.png";
 import campzip from "@/assets/images/campzip.png";
 import habitTracker from "@/assets/images/habitTracker.png";
+import eazyEats from "@/assets/images/Eazy-Eats.png";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
@@ -56,6 +57,18 @@ const portfolioProjects = [
     ],
     link: "https://github.com/Dilki687/camp-site-Booking.git",
     image: campzip,
+  },
+  {
+    company: "Eazy-Eats",
+    year: "2025",
+    title: "Online Food Ordering System",
+    results: [
+      { title: "Robust backend with Spring boot." },
+      { title: "Responsive frontend with React." },
+      { title: "Super admin panel." },
+    ],
+    link: "https://github.com/Dilki687/Eazy-Eats.git",
+    image: eazyEats,
   },
 ];
 
